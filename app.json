@@ -1,0 +1,13 @@
+{
+  "name": "Precog Task B",
+  "description": "Precog Task B on Heroku",
+  "keywords": [
+    "flask",
+    "python",
+    "sample"
+  ],
+  "repository": "https://github.com/yefim/flask-heroku-sample",
+  "addons": [
+    "heroku-postgresql"
+  ]
+}

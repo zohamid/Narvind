@@ -1,0 +1,6 @@
+<p>Upload image for identifying Narendra Modi and/or Arvind Kejriwal</p>
+
+<form action="{{ url_for('identify') }}" method="post" enctype="multipart/form-data">
+  <input type="file" name="image" id="image">
+  <button type="submit">Find</button>
+</form>
